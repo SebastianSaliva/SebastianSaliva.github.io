@@ -18,7 +18,7 @@
 
 .subMain{
   /* width: 33.3%; */
-  height: 100vh;
+  height: 1600px;
   flex: 1; /* Each child will flex to take up equal space */
   /* If you want specific widths, you can use the 'width' property instead of 'flex' */
 
@@ -58,6 +58,16 @@
 #right {
   background-color: #545454;
 }
+#GPTtitle{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+}
+#GPTtext{
+  color: white;
+  padding: 2px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -78,7 +88,7 @@ body {
   #links a {
     background: lightgrey;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 45%;
     width: 100px;
     height: 100px;
     display: flex;
@@ -86,6 +96,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: black;
+    box-shadow:  2px 3px 81px #000000;
   }
   
   #about, #other {
