@@ -1,5 +1,5 @@
 /* Basic Reset */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +16,69 @@ body {
     background-color: black;
 }
 
+
+
 .name{
     color: white; 
 }
 .intro{
     color: white;
-}
+} */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: grey;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #links {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  #links a {
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #about, #other {
+    margin: 20px;
+    padding: 20px;
+    background: lightgrey;
+  }
+  
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #other a {
+    display: block;
+    background: red; /* Placeholder color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: darkgrey;
+  }
+  
 
 /* Add more styles as you prefer */
