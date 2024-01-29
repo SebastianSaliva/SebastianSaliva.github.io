@@ -119,6 +119,11 @@ body {
     margin-bottom: 10px;
     text-decoration: none;
   }
+
+  #honorText{
+    text-align: center;
+    color: yellow;
+  }
   
   footer {
     text-align: center;
