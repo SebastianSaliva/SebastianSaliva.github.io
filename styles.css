@@ -59,12 +59,16 @@
   background-color: #545454;
 }
 #GPTtitle{
+  width: 100%;
+  text-align: center;
   color: white;
   font-size: 20px;
   padding: 10px;
 
 }
 #GPTtext{
+  width: 100%;
+  text-align: center;
   color: white;
   padding: 2px;
 }
@@ -96,7 +100,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: black;
-    box-shadow:  2px 3px 81px #000000;
+    box-shadow:  2px 3px 21px #000000;
   }
   
   #about, #other {
@@ -112,7 +116,7 @@ body {
   
   #other a {
     display: block;
-    background: red; /* Placeholder color */
+    background: rgba(224, 98, 98, 0.551); /* Placeholder color */
     color: white;
     text-align: center;
     padding: 10px;
@@ -122,7 +126,8 @@ body {
 
   #honorText{
     text-align: center;
-    color: yellow;
+    font-size: 3rem;
+    color: rgb(216, 226, 255);
   }
   
   footer {
