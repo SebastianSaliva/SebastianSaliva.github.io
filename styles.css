@@ -18,7 +18,7 @@
 
 .subMain{
   /* width: 33.3%; */
-  height: 1600px;
+  height: 1800px;
   flex: 1; /* Each child will flex to take up equal space */
   /* If you want specific widths, you can use the 'width' property instead of 'flex' */
 
@@ -101,8 +101,10 @@ body {
     text-decoration: none;
     color: black;
     box-shadow:  2px 3px 21px #000000;
+    border: #ffffff 1px solid;
   }
-  
+
+
   #about, #other {
     margin: 20px;
     padding: 20px;
@@ -138,3 +140,43 @@ body {
   
 
 /* Add more styles as you prefer */
+
+
+  #links a:hover {
+    color: #ffffff;
+    background-color: #9a9a9aa7;
+  }
+  #other:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  #other a:hover{
+    box-shadow: 0px 3px 10px #545454;
+    background-color: rgb(152, 166, 227);
+  }
+  #other a{
+    transition: background-color 1s;
+  }
+
+  #other{
+    transition: background-color 1s, box-shadow 1s;
+  }
+  #links a{
+    transition: background-color 0.5s;
+  }
+
+
+  #links a:active{
+    background-color: greenyellow;
+  }
+  #about:hover{
+    text-align: center;
+    color: #ffffff;
+    background-color: #545454;
+  }
+
+  #about {
+    transition: text-align 1s;
+    transition: color 1s;
+    transition: background-color 1s;
+  }
